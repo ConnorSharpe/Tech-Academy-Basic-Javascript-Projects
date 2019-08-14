@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <script src="JS/Basic_JavaScript_7.js"></script>
+    </head>
+    <body>
+        <p id="Greeting" onclick="time()">Click here for greeting.</p>
+        <p onclick="Party()" id="IF">Should we party?</p>
+        <br><br>
+        <p>Please enter the number of fingers on your hand.</p>
+        <form onsubmit="event.preventDefault()">
+            <input type="text" id="finger">
+            <button type="submit" onmouseover="fingerCount()">Submit</button>
+            <p id="response">I wonder how many you got.</p>
+            <br><br>
+            <p id="Time_of_Day"></p>
+            <button onclick="Time_function()">Click here to get the time</button>
+        </form>
+    </body>
+</html>
